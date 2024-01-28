@@ -1,0 +1,69 @@
+
+
+Can just save it from here
+You have a shell to go off of so how much should you use it. -- when you litterly dont know how to implement the next section of the project 
+``` java 
+
+// so right now you know what you are going to be doing so do that 
+
+        
+        // pointer to the first address of string from userInput
+        char *cmd = readUserInput(argc, argv);          // int argc is number of args right?             
+
+        printf ("You typed: %s", cmd);                  // then what is up with the number thing that is in the reciation slides
+
+        // code exit as the first check of userInput
+
+        
+        
+        char *cmd = parseCommand(cmdLine);              // no idea what this is 
+
+        if (0) {                                        // how in the world do I check if it is a built in command or not 
+
+            executeBuiltInCommand(cmd);                 // why are you still tired is there a plugin I am missing
+        }
+        else {
+            // need to fork and look through all executables to see if its there
+        }
+
+
+            // need to pass the char *argv though right? NOOO
+
+            
+
+        char command_Length[200];               // Commands will have a max size of 200 chars
+
+
+         for (int i=0; i < 200; i++) {          // everything is always harder in C
+
+        if (theCommand == '0') {
+            
+        }
+        else {
+            theCommand = theCommand + 8;                   // pointer arithmetic
+            theCommandSize++;                              // trying to get the size of the string
+        }
+
+
+         theCommand = theCommand - commandLength;
+
+             // char* theCommand = scanf("%s"); // running into issues with scanf - v annoying
+
+
+        
+    // I do not know the reason why I am supposed to tokenize, just that its what I am supposed to do 
+    
+
+
+
+
+    // does it matter if I tokenize all 200 or not? , maybe you have no idea right now if you need a delimiter then you will have to work on that 
+    
+    // thats exciting
+
+      // what else to I need to accomplish in this method.... break it up into tokens?
+    // still needs a return though 
+    char* result; // uninitialized
+
+    }
+```
